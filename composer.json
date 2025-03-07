@@ -15,10 +15,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Inpsyde GmbH",
-            "email": "hello@inpsyde.com",
-            "homepage": "https://inpsyde.com",
-            "role": "Company"
+            "name": "Akram-Walid KIES",
+            "homepage": "https://github.com/akramkies/"
+        },
+        {
+            "name": "GLOBALIS media systems",
+            "homepage": "https://www.globalis-ms.com/"
         }
     ],
     "support": {
@@ -38,9 +40,9 @@
     ],
     "require": {
         "php": ">=7.2 < 8.4",
-        "psr/log": "^1.1.4",
+        "psr/log": "^2.0",
         "wecodemore/wordpress-early-hook": "^1.1.0",
-        "monolog/monolog": "^2.3.5"
+        "monolog/monolog": "^2.8.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5.33",
