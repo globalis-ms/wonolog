@@ -11,10 +11,3 @@
 
 # Docker
 .github/workflows/docker/php*/*.sh
-
-# Adding a folder to put things temporarily
-temp/
-
-# IDE
-.idea/
-

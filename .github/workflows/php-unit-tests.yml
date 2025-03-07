@@ -25,8 +25,7 @@ jobs:
         strategy:
             fail-fast: false
             matrix:
-                php-versions: [ '8.1', '8.2' ]
-                dependency-versions: ['highest', 'lowest']
+                php-versions: [ '7.2', '7.3', '7.4', '8.0', '8.1', '8.2' ]
 
         steps:
             - name: Checkout
@@ -45,8 +44,6 @@ jobs:
 
             - name: Install Composer dependencies
               uses: ramsey/composer-install@v2
-              with:
-                dependency-versions: ${{ matrix.dependency-versions }}
 
             - name: Run unit tests
               run: composer tests:unit:${{ ((env.USE_COVERAGE == 'yes') && 'codecov') || 'no-cov' }}
