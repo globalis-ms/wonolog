@@ -1,0 +1,20 @@
+# Composer
+/composer.phar
+/composer.lock
+/vendor/
+
+# PHPUnit
+/coverage.xml
+/phpunit.xml
+/.phpunit.result.cache
+/tests/environment.php
+
+# Docker
+.github/workflows/docker/php*/*.sh
+
+# Adding a folder to put things temporarily
+temp/
+
+# IDE
+.idea/
+
